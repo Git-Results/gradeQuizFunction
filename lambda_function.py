@@ -4,7 +4,6 @@ from boto3.dynamodb.conditions import Key, Attr
 
 def lambda_handler(event, context):
   
-  #UPDATED
   #Create string from JSON then convert to dict
   print(event)
   jsonEvent = json.dumps(event)
